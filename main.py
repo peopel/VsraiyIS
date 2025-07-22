@@ -21,7 +21,7 @@ TELEGRAM_API = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto"  # ✅ 
 # --- Функция: получить URL случайной статьи ---
 def get_random_article_url():
     for _ in range(MAX_RETRIES):
-        article_id = random.randint(1755375,1755375)#(1000000, 4100000)
+        article_id = random.randint(1000000, 4100000)#(1755375,1755375)#
         url = f"{BASE_URL}{article_id}/"
         try:
             response = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
