@@ -17,7 +17,7 @@ HEADERS = {
 }
 
 MAX_RETRIES = 1000
-TIMEOUT = 10
+TIMEOUT = 100
 BASE_URL = "https://infostart.ru/1c/articles/"
 
 # --- Настройки Telegram ---
