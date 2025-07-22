@@ -16,8 +16,8 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
 }
 
-MAX_RETRIES = 1000
-TIMEOUT = 100
+MAX_RETRIES = 50
+TIMEOUT = 10
 BASE_URL = "https://infostart.ru/1c/articles/"
 
 # --- Настройки Telegram ---
