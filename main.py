@@ -60,13 +60,13 @@ PROXY_SOURCES = [
 ]
 
 # --- Настройки Telegram ---
-TELEGRAM_TOKEN = "8114950949:AAF_pK08B4IL17I0PgKthvLvqmxeRWmOA4w"
+TELEGRAM_TOKEN = "11111118114950949:AAF_pK08B4IL17I2122112212121120PgKthvLvqmxeRWmOA4w"
 TELEGRAM_CHAT = "@VsratiyIS"
 TELEGRAM_API = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto"
 
 # --- Настройки Hugging Face ---
 HF_API_URL = "https://api-inference.huggingface.co/models/Salesforce/blip-image-captioning-base"
-HF_TOKEN = "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"
+HF_TOKEN = "hf_jsjhTD21212112NMkhpGUgaDyCdFQHZDrxCW12121212212112FspUFL"
 HF_TIMEOUT = 60
 
 # Глобальный список рабочих прокси
